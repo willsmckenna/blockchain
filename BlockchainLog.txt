@@ -1,0 +1,417 @@
+BlockchainLog.txt       annotations marked with <<>>
+
+<<PROCESS 0>>
+
+Wills Mckenna's Blockchain program. Ctl-c to quit
+
+Using processID 0
+
+Servers set, waiting for start signal...
+Public Keys of the processes:
+0: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCAinhJxtcY/fcBffl/XxvRlxBP7QSDo3b+fPaThaBTfIDomJXySkrqvXcB1SC6vcxtGASs6dI1U24r9NvqGqD4sTU31pNH8az0+DRYkwcbXL7sdPQ+KhVdxgU8fjDzcg5hujGLuOqcNz0xcVIUvb/cJoZcWWJMKZH6016HVImO5QIDAQAB
+2: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpGRZb0dxpSucmW2xnIqUfumfspYMmvgQaaQhu/ejrNBnG6y17+nUco0QyIfhJzeeH7355bI/gP84/A5I5G7vqomj2XJn2gMJ6vpONiB/YF5E1CjTQbSa+SV49sWHDeNCZxOS6adoVOlsFo1NQU2TarnUgYhLUicJPC452+Z9+SwIDAQAB
+1: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlMUmZj0LdQfy7AS/1Ga2g+WrlWwtJWwdLv0I6IB3ZgCsOSXUiFsZfMEbnxut+FLyRJL2XqA+5Jk5of3iZ3heqMqPAAVBr7ldxmrATt1HvZ3UaWcufI9nL57MQL5ozd8jJxuUU4mH5FNMOO9DjA/bO9SITMb5AeUjJzgq2eIL8GwIDAQAB
+----------------------------------------------
+Using input file: BlockInput0.txt
+UBs sent
+12 unverified blocks remaining
+Using the public key from process: 0
+Attempting to verify block
+Hash is: 50582619454B3ADDF90E619EB9889759F539F3E2D21978AD07298E51430D7710
+First 16 bits in Hex and Decimal: 5058 and 20568
+20568 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: 422DD2B2DAF665ACEFCB141E80F4610E0D3721F289DF578E355680428BF34BE6
+First 16 bits in Hex and Decimal: 422D and 16941
+block verified!
+Block verified, adding to blockchain and multicasting...
+11 unverified blocks remaining
+Using the public key from process: 1
+Attempting to verify block
+Hash is: 428CECE9D1B97C08541B2814994BCD0C31D0DE2BDD425D6C53818F8967A1731B
+First 16 bits in Hex and Decimal: 428C and 17036
+block verified!
+Block verified, adding to blockchain and multicasting...
+
+<<just a coordination error here, fixed itself>>
+Exception in thread "Thread-22" java.util.ConcurrentModificationException
+        at java.base/java.util.LinkedList$ListItr.checkForComodification(LinkedList.java:970)
+        at java.base/java.util.LinkedList$ListItr.next(LinkedList.java:892)
+        at Blockchain.writeToFile(Blockchain.java:825)
+        at BlockchainWorker.run(Blockchain.java:321)
+10 unverified blocks remaining
+Using the public key from process: 2
+Attempting to verify block
+Hash is: 423758C0F856FE9D5D4CDD817203B7218B7F25BDBD40B79BCECF81949AECEE07
+First 16 bits in Hex and Decimal: 4237 and 16951
+block verified!
+Block verified, adding to blockchain and multicasting...
+9 unverified blocks remaining
+Using the public key from process: 0
+Attempting to verify block
+Hash is: B30CE32FB97D529C86C805BFCF529924E3A3F153F7A5DFB9AE6FB491190762D3
+First 16 bits in Hex and Decimal: B30C and 45836
+45836 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: 2B4C807BB4DEE3A84CE6DAC0EA305EAB5C6BACCF25AAD67B28891BF5B7C8568C
+First 16 bits in Hex and Decimal: 2B4C and 11084
+block verified!
+Attempting to work on block again...
+8 unverified blocks remaining
+Using the public key from process: 1
+Block already in blockchain
+7 unverified blocks remaining
+Using the public key from process: 2
+Attempting to verify block
+Hash is: 6C5938541D75E4A384958D8EB11439DAD10996A7A14556DBCD9897AE010B96B8
+First 16 bits in Hex and Decimal: 6C59 and 27737
+27737 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: 1E2BD504B4220773BA4B0F69BA8B3A8B16FD395C697B8C401EEE5656602AFD3D
+First 16 bits in Hex and Decimal: 1E2B and 7723
+block verified!
+Block verified, adding to blockchain and multicasting...
+6 unverified blocks remaining
+Using the public key from process: 0
+Attempting to verify block
+Hash is: A0ED28B42BA4FABABE1D33A721B8749EBDB816896716A886BDC28D80F4A22054
+First 16 bits in Hex and Decimal: A0ED and 41197
+41197 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: 8D12DEAF12E6E2FA2762305AA649E6323B9A13437470405F6185CB379992132B
+First 16 bits in Hex and Decimal: 8D12 and 36114
+36114 is not less than 20,000 so we did not solve the puzzle
+
+Abandoning block...
+5 unverified blocks remaining
+Using the public key from process: 1
+Attempting to verify block
+Hash is: DC6F6397E8AEDAE4BCBD9E7FBF6B49A59B477EB42EA7480476405EECD5EB36A4
+First 16 bits in Hex and Decimal: DC6F and 56431
+56431 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: 04CAE5CAD31FCC0B16469C72E59226B23C7E7A867499F752572CBC2D70523399
+First 16 bits in Hex and Decimal: 04CA and 1226
+block verified!
+Attempting to work on block again...
+4 unverified blocks remaining
+Using the public key from process: 2
+Attempting to verify block
+Hash is: 361A9A64A52A1D960D0B5BC19231C1DACC844AF3B735342844405973C51BC880
+First 16 bits in Hex and Decimal: 361A and 13850
+block verified!
+Block verified, adding to blockchain and multicasting...
+3 unverified blocks remaining
+Using the public key from process: 0
+Attempting to verify block
+Hash is: C32339069961B582CDD30D0F0D7FC4069CE18EA158C4390CCC3CC36E7BB495ED
+First 16 bits in Hex and Decimal: C323 and 49955
+49955 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: 1D68E9882841ED49F5D214319A49E395E3ED5BFBAE24168E0C70B8DBD6B5FE66
+First 16 bits in Hex and Decimal: 1D68 and 7528
+block verified!
+Block verified, adding to blockchain and multicasting...
+2 unverified blocks remaining
+Using the public key from process: 1
+Attempting to verify block
+Hash is: FA7C9278A46C15A822BE363D7DCE48CC68D7896FA079A4DCD1999C4200AB1177
+First 16 bits in Hex and Decimal: FA7C and 64124
+64124 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: FCAFD063EA8C4F22612BB50EE0C7ED16260C2916AC4812393FDC0CB0253024D3
+First 16 bits in Hex and Decimal: FCAF and 64687
+64687 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: F6F4C43E236D53DA62486D9AE48E73A93570D6CE2C1329866300773E2148E70D
+First 16 bits in Hex and Decimal: F6F4 and 63220
+63220 is not less than 20,000 so we did not solve the puzzle
+
+Abandoning block...
+1 unverified blocks remaining
+Using the public key from process: 2
+Block already in blockchain
+0 unverified blocks remaining
+BLOCKCHAIN COMPLETE
+(l) to list blockchain, (c) to view credit, (q) to quit:
+
+<<PROCESS 1>>
+
+Wills Mckenna's Blockchain program. Ctl-c to quit
+
+Using processID 1
+
+Servers set, waiting for start signal...
+Public Keys of the processes:
+0: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCAinhJxtcY/fcBffl/XxvRlxBP7QSDo3b+fPaThaBTfIDomJXySkrqvXcB1SC6vcxtGASs6dI1U24r9NvqGqD4sTU31pNH8az0+DRYkwcbXL7sdPQ+KhVdxgU8fjDzcg5hujGLuOqcNz0xcVIUvb/cJoZcWWJMKZH6016HVImO5QIDAQAB
+2: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpGRZb0dxpSucmW2xnIqUfumfspYMmvgQaaQhu/ejrNBnG6y17+nUco0QyIfhJzeeH7355bI/gP84/A5I5G7vqomj2XJn2gMJ6vpONiB/YF5E1CjTQbSa+SV49sWHDeNCZxOS6adoVOlsFo1NQU2TarnUgYhLUicJPC452+Z9+SwIDAQAB
+1: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlMUmZj0LdQfy7AS/1Ga2g+WrlWwtJWwdLv0I6IB3ZgCsOSXUiFsZfMEbnxut+FLyRJL2XqA+5Jk5of3iZ3heqMqPAAVBr7ldxmrATt1HvZ3UaWcufI9nL57MQL5ozd8jJxuUU4mH5FNMOO9DjA/bO9SITMb5AeUjJzgq2eIL8GwIDAQAB
+----------------------------------------------
+Using input file: BlockInput1.txt
+UBs sent
+12 unverified blocks remaining
+Using the public key from process: 0
+Attempting to verify block
+Hash is: EB5BFEDCD08737E7FC34ECB24E754F19AC1D1F071F501AC37F46147622DF3F7D
+First 16 bits in Hex and Decimal: EB5B and 60251
+60251 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: E4BB2F7754D1FC6B8C14FE89AC5B7839AB9A65AFD08F0BDE81A79D929C09A09D
+First 16 bits in Hex and Decimal: E4BB and 58555
+58555 is not less than 20,000 so we did not solve the puzzle
+
+Abandoning block...
+11 unverified blocks remaining
+Using the public key from process: 1
+Attempting to verify block
+Hash is: 01C6ED111943199AB10454118CA42A9C12396191566FE309B824380E0F595FEA
+First 16 bits in Hex and Decimal: 01C6 and 454
+block verified!
+Attempting to work on block again...
+10 unverified blocks remaining
+Using the public key from process: 2
+Attempting to verify block
+Hash is: B5D041309B27A14E4BA63C1751AD1C2F16A7CE0B6CF351D8FBD1C84DC0547C24
+First 16 bits in Hex and Decimal: B5D0 and 46544
+46544 is not less than 20,000 so we did not solve the puzzle
+
+Abandoning block...
+9 unverified blocks remaining
+Using the public key from process: 0
+Attempting to verify block
+Hash is: 4810FBBD8551771B9B9FDA47795D5C172FE006217BD14ED09F1D485B437708DA
+First 16 bits in Hex and Decimal: 4810 and 18448
+block verified!
+Block verified, adding to blockchain and multicasting...
+8 unverified blocks remaining
+Using the public key from process: 1
+Attempting to verify block
+Hash is: 197B61B6155AF5F20485B94CCF669689D576AAF222AB9E09F8C9F972F6A33770
+First 16 bits in Hex and Decimal: 197B and 6523
+block verified!
+Block verified, adding to blockchain and multicasting...
+7 unverified blocks remaining
+Using the public key from process: 2
+Attempting to verify block
+Hash is: 52D7033B8B8A69B9901DFEBB3EC2F47800623DE4561517FA2A4885A93D69B28A
+First 16 bits in Hex and Decimal: 52D7 and 21207
+21207 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: E531F788F030FC984086E7F33417A82C4C51F78587442FB3D72D77FD41647883
+First 16 bits in Hex and Decimal: E531 and 58673
+58673 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: C6D08FE6092C11881D1A6762DEDF9E6D9F04FD26BBD592945EBEE9BEF2D268C1
+First 16 bits in Hex and Decimal: C6D0 and 50896
+50896 is not less than 20,000 so we did not solve the puzzle
+
+Abandoning block...
+6 unverified blocks remaining
+Using the public key from process: 0
+Attempting to verify block
+Hash is: 622A265A2E4391CF9CD0087A811580A81A5314C2ECBCC65F8F2007ED58074D57
+First 16 bits in Hex and Decimal: 622A and 25130
+25130 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: AB2888AF692A00CF1774A1683D617BC584ABAEF93EB7923CE008ECFCE131A2D6
+First 16 bits in Hex and Decimal: AB28 and 43816
+43816 is not less than 20,000 so we did not solve the puzzle
+
+Abandoning block...
+5 unverified blocks remaining
+Using the public key from process: 1
+Attempting to verify block
+Hash is: 3F6C564F06D46C7D8DD247917AD81EAD9A792AE24AECFDB6698D289B0DC11890
+First 16 bits in Hex and Decimal: 3F6C and 16236
+block verified!
+Block verified, adding to blockchain and multicasting...
+4 unverified blocks remaining
+Using the public key from process: 2
+Attempting to verify block
+Hash is: 62F926E5C2B09491F50D87EB6261ECE9F12D4B2CEF21898C655F877B201E79F2
+First 16 bits in Hex and Decimal: 62F9 and 25337
+25337 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: 9262C6FC9F07D917713161907702263F796024CEAA7092B958BA69D4942464C9
+First 16 bits in Hex and Decimal: 9262 and 37474
+37474 is not less than 20,000 so we did not solve the puzzle
+
+Abandoning block...
+3 unverified blocks remaining
+Using the public key from process: 0
+Attempting to verify block
+Hash is: BBCD9BE6B2F611AFCE9559BEDCA12ABF3E8D8A98D0956FEEAF2A0BCBED1C284A
+First 16 bits in Hex and Decimal: BBCD and 48077
+48077 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: 291349D68DF846751C45018E2247AECC16F92CF3639B28CED49EE8EC5F02DCCC
+First 16 bits in Hex and Decimal: 2913 and 10515
+block verified!
+Attempting to work on block again...
+2 unverified blocks remaining
+Using the public key from process: 1
+Attempting to verify block
+Hash is: ACD6CB9C9566FD0CC35EF3EE3F9572535B8CFEF9C2AD800AE5B461A0DD653B6E
+First 16 bits in Hex and Decimal: ACD6 and 44246
+44246 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: 406B529E9C8BF07AEA6D3D713212B0A3A6C6E219373F76FBC1A20A6088618936
+First 16 bits in Hex and Decimal: 406B and 16491
+block verified!
+Block verified, adding to blockchain and multicasting...
+1 unverified blocks remaining
+Using the public key from process: 2
+Attempting to verify block
+Hash is: 28A52AEFB9EC39CA77DD7492A6F10E72854213E0005A087841B4956937108627
+First 16 bits in Hex and Decimal: 28A5 and 10405
+block verified!
+Block verified, adding to blockchain and multicasting...
+0 unverified blocks remaining
+BLOCKCHAIN COMPLETE
+(l) to list blockchain, (c) to view credit, (q) to quit:
+
+<<PROCESS 2>>
+
+Wills Mckenna's Blockchain program. Ctl-c to quit
+
+Using processID 2
+
+Servers set, waiting for start signal...
+Public Keys of the processes:
+0: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCAinhJxtcY/fcBffl/XxvRlxBP7QSDo3b+fPaThaBTfIDomJXySkrqvXcB1SC6vcxtGASs6dI1U24r9NvqGqD4sTU31pNH8az0+DRYkwcbXL7sdPQ+KhVdxgU8fjDzcg5hujGLuOqcNz0xcVIUvb/cJoZcWWJMKZH6016HVImO5QIDAQAB
+2: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpGRZb0dxpSucmW2xnIqUfumfspYMmvgQaaQhu/ejrNBnG6y17+nUco0QyIfhJzeeH7355bI/gP84/A5I5G7vqomj2XJn2gMJ6vpONiB/YF5E1CjTQbSa+SV49sWHDeNCZxOS6adoVOlsFo1NQU2TarnUgYhLUicJPC452+Z9+SwIDAQAB
+1: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlMUmZj0LdQfy7AS/1Ga2g+WrlWwtJWwdLv0I6IB3ZgCsOSXUiFsZfMEbnxut+FLyRJL2XqA+5Jk5of3iZ3heqMqPAAVBr7ldxmrATt1HvZ3UaWcufI9nL57MQL5ozd8jJxuUU4mH5FNMOO9DjA/bO9SITMb5AeUjJzgq2eIL8GwIDAQAB
+----------------------------------------------
+Using input file: BlockInput2.txt
+UBs sent
+12 unverified blocks remaining
+Using the public key from process: 0
+Attempting to verify block
+Hash is: 9AF663FC7569A995214F3EF55F2F1CCE51C1B2EF05F55AFB0538495C366769FF
+First 16 bits in Hex and Decimal: 9AF6 and 39670
+39670 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: A139136A0D8D820A22B998283508C235E49207D5AE8E71417BC032B4EFE3EB04
+First 16 bits in Hex and Decimal: A139 and 41273
+41273 is not less than 20,000 so we did not solve the puzzle
+
+Abandoning block...
+11 unverified blocks remaining
+Using the public key from process: 1
+Attempting to verify block
+Hash is: 48EB952D2F545AEC756A3478B06ABF2F324D9ED179F2741594F8F589CC27659A
+First 16 bits in Hex and Decimal: 48EB and 18667
+block verified!
+Block verified, adding to blockchain and multicasting...
+10 unverified blocks remaining
+Using the public key from process: 2
+Attempting to verify block
+Hash is: 840281847F9CE0BDE8BFDBFF1131320350AC3AF3D248CF140AA6097E70C94848
+First 16 bits in Hex and Decimal: 8402 and 33794
+33794 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: 7DD60DF3D9CE3DC5EECCFEB178104FF900443F44D583786C325CA2D520DB6F19
+First 16 bits in Hex and Decimal: 7DD6 and 32214
+32214 is not less than 20,000 so we did not solve the puzzle
+
+Abandoning block...
+9 unverified blocks remaining
+Using the public key from process: 0
+Block already in blockchain
+8 unverified blocks remaining
+Using the public key from process: 1
+Block already in blockchain
+7 unverified blocks remaining
+Using the public key from process: 2
+Attempting to verify block
+Hash is: A3E5E76191FE0B1035D934D95EE177F2A581E9F0993BF4F2ECA1FA3DCC3EB042
+First 16 bits in Hex and Decimal: A3E5 and 41957
+41957 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: 79D98484AE13A6D5CA87B7CEB1EABE42273E7A5B0FD50376BA9545A7732F3BA1
+First 16 bits in Hex and Decimal: 79D9 and 31193
+31193 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: E4CD26ECD325FA9EFD63E4A2E9747BA0F6C25EEE9333AF3E6D71BB3D973176A5
+First 16 bits in Hex and Decimal: E4CD and 58573
+58573 is not less than 20,000 so we did not solve the puzzle
+
+Abandoning block...
+6 unverified blocks remaining
+Using the public key from process: 0
+Attempting to verify block
+Hash is: 39826A14CC1B93592A7C1380BDFD69204510968673DA819DA5834AB554DB8A6F
+First 16 bits in Hex and Decimal: 3982 and 14722
+block verified!
+Block verified, adding to blockchain and multicasting...
+5 unverified blocks remaining
+Using the public key from process: 1
+Attempting to verify block
+Hash is: 6A1B61DFD434041F3A15CE9945E709DDD496D1D5C766BA6DCA19DB9288CDBD6B
+First 16 bits in Hex and Decimal: 6A1B and 27163
+27163 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: E13D4CF87D27BA6F8137619754CEE85906D123C650C090A9BEBB82B85A44628D
+First 16 bits in Hex and Decimal: E13D and 57661
+57661 is not less than 20,000 so we did not solve the puzzle
+
+Abandoning block...
+4 unverified blocks remaining
+Using the public key from process: 2
+Attempting to verify block
+Hash is: 75ED24926773F8D5353367B2DA548E62E8CC55BB5F6E04A7C6F751AC74C1103D
+First 16 bits in Hex and Decimal: 75ED and 30189
+30189 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: 96F520BA857917599AF5B94B5E8BE9A528F8C85C09741BFA5FAFD41688F5F26F
+First 16 bits in Hex and Decimal: 96F5 and 38645
+38645 is not less than 20,000 so we did not solve the puzzle
+
+Abandoning block...
+3 unverified blocks remaining
+Using the public key from process: 0
+Attempting to verify block
+Hash is: E0F429F8C0F623767348AFA14A000EE676FC43210E93BE97675D519A521A81E5
+First 16 bits in Hex and Decimal: E0F4 and 57588
+57588 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: 9C2AFCBC0A7CAA80E6FB7F98D9CEE6A77E03A3353764493568148E652DE3FEBD
+First 16 bits in Hex and Decimal: 9C2A and 39978
+39978 is not less than 20,000 so we did not solve the puzzle
+
+Abandoning block...
+2 unverified blocks remaining
+Using the public key from process: 1
+Attempting to verify block
+Hash is: 6709C98919B9CBDD0269D20EF03E442D63BE3FF18C58AAEDCE154A88F9CBCF33
+First 16 bits in Hex and Decimal: 6709 and 26377
+26377 is not less than 20,000 so we did not solve the puzzle
+
+Hash is: 21A52A547FE52EB428022C91AAD8FB94732DE1260A4514BDACF69772C56FFEC1
+First 16 bits in Hex and Decimal: 21A5 and 8613
+block verified!
+Attempting to work on block again...
+1 unverified blocks remaining
+Using the public key from process: 2
+Block already in blockchain
+0 unverified blocks remaining
+BLOCKCHAIN COMPLETE
+<<demonstrating the user console commands>>
+(l) to list blockchain, (c) to view credit, (q) to quit:  l
+12.  2020-05-25.15:21:23.2 Joe DiMaggio 111-22-3333 1914.11.25 SoreKnees RestFromSports Aspirin
+11.  2020-05-25.15:21:23.1 Bruce Lee 456-789-123 1940.11.27 SoreStomach LessCombat Vicodine
+10.  2020-05-25.15:21:23.0 Wayne Blaine 123-45-6777 1942.07.07 Measles WaitToGetBetter CodLiverOil
+9.  2020-05-25.15:21:22.2 John Kennedy 333-45-6999 1917.05.29 AddisonsDisease DrugTherapy Steroids
+8.  2020-05-25.15:21:22.1 Sally McCutty 123-456-999 1970.01.01 Migraine IcePack Almotriptan
+7.  2020-05-25.15:21:22.0 Julie Wilson 123-45-6999 1996.03.07 Insomnia Exercise HotPeppers
+6.  2020-05-25.15:21:21.2 Abraham Lincoln 444-45-6888 1809.02.12 GreviousWound Surgery Whiskey
+5.  2020-05-25.15:21:21.1 Wei Xu 123-456-333 1996.03.22 Shingles WaitForRelief Zovirax
+4.  2020-05-25.15:21:21.0 Joe Blow 123-45-6888 1996.03.07 Smallpox BedRest Whiskey
+3.  2020-05-25.15:21:20.2 Helen Keller 666-45-6789 1880.06.27 Arthritis WarmCloths Aspirin
+2.  2020-05-25.15:21:20.1 Rita Vita 999-456-789 1992.01.31 ObessivePersonality TryToRelax Ibuprofen
+1.  2020-05-25.15:21:20.0 John Smith 123-45-6789 1996.03.07 Chickenpox BedRest aspirin
+0.  2020-05-25.15:21:19.0 Wills Mckenna 123-45-6789 09-22-1989 Blockchain euphoria Writing more block chain code Blockchain pills
+(l) to list blockchain, (c) to view credit, (q) to quit:  c
+Process 0: 7 Process 1: 5 Process 2: 1
+(l) to list blockchain, (c) to view credit, (q) to quit:  q
+Exited.
